@@ -15,7 +15,7 @@ class gameScene extends Phaser.Scene {
         this.load.image('arvore', 'assets/Arvore.png');
         this.load.image('ouro', 'assets/Ouro.png');
         this.load.spritesheet('zumbi', 'assets/zumbi.png', { frameWidth: 93, frameHeight: 132 });
-        this.load.image('arvoreAlta', 'assets/arvore2.png');
+        this.load.image('arvoreAlta', 'assets/Arvore.png');
         this.load.image('button2', 'assets/continuar.png');
         this.load.image('tutorial', 'assets/Tutorial.png');
         this.load.image('casa', 'assets/casa.png');
