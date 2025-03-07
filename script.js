@@ -45,7 +45,7 @@ class gameScene extends Phaser.Scene {
         this.trees = this.physics.add.staticGroup();
         this.trees.create(700, 412, 'arvore');
         this.trees.create(1200, 412, 'arvore');
-        this.trees.create(1450, 365, 'arvore');
+        this.trees.create(1450, 365, 'arvoreAlta');
         this.physics.add.collider(this.player, this.trees);
 
         // Cria as plataformas
